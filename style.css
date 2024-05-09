@@ -1,0 +1,159 @@
+.color-pri{
+    background-color: #00151b;
+}
+
+.color-sec{
+    color: #92ddc8 ;
+}
+
+.color-tri{
+    color: rgb(255, 255, 255);
+}
+
+@font-face {
+    font-family: 'sans';
+    src: url(font/OpenSans-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: inter;
+    src: url(font/Inter-Bold.ttf);
+}
+
+.font-inter{
+    font-family: inter;
+}
+
+.font-sans{
+    font-family: sans;
+}
+
+#header{
+    display: flex;
+    position: absolute;
+    width: 97.5%;
+    height: 12%;
+    font-size: 170%;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-left: 2.5% ;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 2px 0 5px white;
+    cursor: pointer;
+}
+
+#about{
+    margin-left: 2.5%;
+    opacity: 95%;
+    line-height: 2%;
+    display: inline-block;
+    margin-top: 15%;
+}
+
+#description{
+    margin-left: 2.5%;
+    display: inline-block;
+    font-weight: 50;
+    margin-top: 0.5rem;
+    margin-right: 35%;
+    opacity: 90%;
+}
+
+@media only screen and (max-width: 486px){
+    
+    #about{
+        padding-top: 20%;
+    }
+
+    #description{
+        top: 30%;
+        right: 0px;
+    }
+}
+
+@media only screen and (min-height: 1100px){
+    #header{
+        height: 6%;
+        
+    }
+}
+
+#button{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0);
+    color: #92ddc8;
+    padding: 10px 20px;
+    border: 1px solid #92ddc8;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 1%;
+    margin-left: 2.5%;
+    width: auto;
+    font-family: inter;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    border-width: 1px;
+    letter-spacing: .025rem;
+}
+
+#button:hover{
+    background-color: #92ddc876;
+}
+
+::-webkit-scrollbar {
+    width: 3px; 
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f100;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c5c5f089;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #c5c5f0;
+}
+
+#about2{
+    display: block;
+    margin-left: 2.5%;
+}
+
+#aboutdiv{
+    display: flex;
+    flex-direction: row;
+}
+
+#mepic{
+    height: 400px;
+    margin-left: 2.5%;
+    border-radius: 5%;
+    border: 2px solid rgba(255, 255, 255, 0.702);
+}
+
+#about3{
+    color: rgba(255, 255, 255, 0.725);
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+@media only screen and (max-width: 680px){
+    #aboutdiv{
+        display: block;
+    }
+
+    #mepic{
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+#project1{
+    
+}
